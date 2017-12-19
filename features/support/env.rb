@@ -1,7 +1,7 @@
 Before() do
-  @test_user = User.new('gatis.vaitovskis@testdevlab.com','r85krm5pv2')
+  @test_user = User.new('gatis.vaitovskis@gmail.com','password')
+
 end
 
 After() do
-  puts "Test hook"
 end
