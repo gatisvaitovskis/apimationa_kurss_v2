@@ -12,8 +12,7 @@ fields.push({ 'name' => 'Jenkins job', 'value' => job_url.to_s })
 fields.push({ 'name' => 'Bildes numberas', 'value' => build_number.to_s })
 
 embed = []
-embed.push({
-             'color' => 16711909,
+embed.push({ 'color' => 16711909,
              'fields' => fields,
              'thumbnail' => thumbnail })
 
